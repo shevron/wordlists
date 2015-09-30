@@ -1,5 +1,6 @@
-# Word Lists
-## a repository of free-to-use accessible lists of words
+Word Lists
+==========
+a repository of free-to-use accessible lists of words
 
 What is this?
 -------------
