@@ -1,9 +1,9 @@
-Word Lists: a repository for free-to-use and accessible lists of words
-======================================================================
+# Word Lists
+## a repository of free-to-use accessible lists of words
 
 What is this?
 -------------
-This is a repository I started to collect organized, human-and-computer
+This is a repository I started to collect organized human-and-computer
 accessible files containing lists of words.
 
 In addition to files containing lists of words (in the `lists` folder),
@@ -31,7 +31,7 @@ Each file contains a single categorized list of words. Words should not repeat
 more than once in each file - in other words, within each file, each word is
 unique. However, a word may show up in multiple files.
 
-* File Format *
+### File Format
 
 - Word list files are plain-text files encoded in UTF-8.
 - Lines are separated by a standard UNIX LF character "`\n`" (ASCII `0x0a`)
@@ -42,7 +42,7 @@ unique. However, a word may show up in multiple files.
 - Each word is end-padded with space (ASCII `0x20`) characters so that the
   length of all lines in a file (except for the first line) in bytes is equal
 
-* Header Line Format *
+### Header Line Format
 
 - The header line is composed of several pipe symbol (`|`, ASCII `0x7c`)
   separated fields
@@ -62,7 +62,7 @@ unique. However, a word may show up in multiple files.
 The 3rd and 4th header fields together can be used to treat the list file as a
 random-access array of words without reading the entire list to memory.
 
-* Example *
+### Example
 
 Here is an example of a minimal word list file. Assume dots represent a space
 character:
@@ -79,10 +79,11 @@ character:
 
 
 In this example, the header line teaches us that:
- - This is a version 01 file format
- - It contains a list of "Solar System Planets"
- - It has exactly 8 items
- - Each item is 8 bytes long
+
+- This is a version 01 file format
+- It contains a list of "Solar System Planets"
+- It has exactly 8 items
+- Each item is 8 bytes long
 
 You can also notice that shorter words have been zero-padded so that each line
 is *exactly* 8 bytes including the trailing LF character. For example, 'Mars'
