@@ -1,4 +1,4 @@
-01|Mesopotamian Deities|96|12
+01|Mesopotamian Deities|95|12
 Abgal      
 Abzu       
 Adad       
@@ -93,5 +93,4 @@ Tiamay
 Tilmun     
 Utu        
 Zakar      
-Zu         
-           
+Zu
